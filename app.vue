@@ -1,12 +1,12 @@
 <script setup>
 useHead({
-  htmlAttrs: { lang: "en-US" },
-  title: "Nuxt Starter",
+  htmlAttrs: { lang: "es-MX" },
+  title: "Festival del terror",
   meta: [
     {
       name: "description",
       content:
-        "Nuxt Starter is a minimal template created for quick landing pages, built with Nuxt and Tailwind CSS.",
+        "Festival del terror en Ciudad Juárez, Chihuahua. Un evento lleno de actividades emocionantes y experiencias aterradoras.",
     },
   ],
   bodyAttrs: {

@@ -1,5 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Metal+Mania&display=swap');
 @import "tailwindcss";
+@config "../../tailwind.config.js";
 
-@theme {
-  --font-display: "Helvetica", "sans-serif";
+body {
+    @apply bg-gray-950 text-white font-sans;
 }
