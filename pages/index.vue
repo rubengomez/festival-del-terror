@@ -1,4 +1,6 @@
 <script setup lang="ts">
+const navOpen = ref(false)
+
 const schedule = [
   { time: '5:00pm', title: 'Feria del terror' },
   { time: '7:30pm', title: 'Desfile del infierno' },
@@ -74,25 +76,95 @@ const schedule = [
       </div>
 
       <!-- Cards preview -->
-      <div class="mt-8 grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
+      <div class="mt-8 grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-5">
         <div class="group overflow-hidden rounded-2xl border border-white/10 bg-zinc-900/40">
-          <div class="aspect-[4/3] w-full bg-zinc-700/60"></div>
+          <div class="aspect-[4/4] w-full bg-zinc-700/60"><img src="/assets/images/feriadelterror.webp" alt="Festival del Terror portada" class="h-full w-full" /></div>
           <div class="p-5">
-            <h3 class="text-lg font-metal font-semibold">Área 51</h3>
+            <h3 class="text-lg font-metal font-semibold">Festival del terror</h3>
             <p class="mt-1 text-sm font-body text-zinc-400">Descripción breve de la atracción para dar contexto.</p>
           </div>
         </div>
         <div class="group overflow-hidden rounded-2xl border border-white/10 bg-zinc-900/40">
-          <div class="aspect-[4/3] w-full bg-zinc-700/60"></div>
+          <div class="aspect-[4/4] w-full bg-zinc-700/60"><img src="/assets/images/dracula.webp" alt="Festival del Terror portada" class="h-full w-full" /></div>
           <div class="p-5">
-            <h3 class="text-lg font-metal font-semibold">Bosque de las Arañas</h3>
+            <h3 class="text-lg font-metal font-semibold">Dracula Escape</h3>
             <p class="mt-1 text-sm font-body text-zinc-400">Descripción breve de la atracción para dar contexto.</p>
           </div>
         </div>
         <div class="group overflow-hidden rounded-2xl border border-white/10 bg-zinc-900/40">
-          <div class="aspect-[4/3] w-full bg-zinc-700/60"></div>
+          <div class="aspect-[4/4] w-full bg-zinc-700/60"><img src="/assets/images/zombiepaintball.webp" alt="Festival del Terror portada" class="h-full w-full" /></div>
           <div class="p-5">
-            <h3 class="text-lg font-metal font-semibold">Bosque de Calabazas</h3>
+            <h3 class="text-lg font-metal font-semibold">Zombie paintball</h3>
+            <p class="mt-1 text-sm font-body text-zinc-400">Descripción breve de la atracción para dar contexto.</p>
+          </div>
+        </div>
+        <div class="group overflow-hidden rounded-2xl border border-white/10 bg-zinc-900/40">
+          <div class="aspect-[4/4] w-full bg-zinc-700/60"><img src="/assets/images/camino.webp" alt="Festival del Terror portada" class="h-full w-full" /></div>
+          <div class="p-5">
+            <h3 class="text-lg font-metal font-semibold">Csmino</h3>
+            <p class="mt-1 text-sm font-body text-zinc-400">Descripción breve de la atracción para dar contexto.</p>
+          </div>
+        </div>
+        <div class="group overflow-hidden rounded-2xl border border-white/10 bg-zinc-900/40">
+          <div class="aspect-[4/4] w-full bg-zinc-700/60"><img src="/assets/images/catalepsia.webp" alt="Festival del Terror portada" class="h-full w-full" /></div>
+          <div class="p-5">
+            <h3 class="text-lg font-metal font-semibold">Catalepsia</h3>
+            <p class="mt-1 text-sm font-body text-zinc-400">Descripción breve de la atracción para dar contexto.</p>
+          </div>
+        </div>
+        <div class="group overflow-hidden rounded-2xl border border-white/10 bg-zinc-900/40">
+          <div class="aspect-[4/4] w-full bg-zinc-700/60"><img src="/assets/images/calabazas.webp" alt="Festival del Terror portada" class="h-full w-full" /></div>
+          <div class="p-5">
+            <h3 class="text-lg font-metal font-semibold">Calabazas</h3>
+            <p class="mt-1 text-sm font-body text-zinc-400">Descripción breve de la atracción para dar contexto.</p>
+          </div>
+        </div>
+        <div class="group overflow-hidden rounded-2xl border border-white/10 bg-zinc-900/40">
+          <div class="aspect-[4/4] w-full bg-zinc-700/60"><img src="/assets/images/elmuseo.webp" alt="Festival del Terror portada" class="h-full w-full" /></div>
+          <div class="p-5">
+            <h3 class="text-lg font-metal font-semibold">El museo</h3>
+            <p class="mt-1 text-sm font-body text-zinc-400">Descripción breve de la atracción para dar contexto.</p>
+          </div>
+        </div>
+        <div class="group overflow-hidden rounded-2xl border border-white/10 bg-zinc-900/40">
+          <div class="aspect-[4/4] w-full bg-zinc-700/60"><img src="/assets/images/espectros.webp" alt="Festival del Terror portada" class="h-full w-full" /></div>
+          <div class="p-5">
+            <h3 class="text-lg font-metal font-semibold">Espectros</h3>
+            <p class="mt-1 text-sm font-body text-zinc-400">Descripción breve de la atracción para dar contexto.</p>
+          </div>
+        </div>
+        <div class="group overflow-hidden rounded-2xl border border-white/10 bg-zinc-900/40">
+          <div class="aspect-[4/4] w-full bg-zinc-700/60"><img src="/assets/images/jeepers.webp" alt="Festival del Terror portada" class="h-full w-full" /></div>
+          <div class="p-5">
+            <h3 class="text-lg font-metal font-semibold">Jeepers</h3>
+            <p class="mt-1 text-sm font-body text-zinc-400">Descripción breve de la atracción para dar contexto.</p>
+          </div>
+        </div>
+        <div class="group overflow-hidden rounded-2xl border border-white/10 bg-zinc-900/40">
+          <div class="aspect-[4/4] w-full bg-zinc-700/60"><img src="/assets/images/silencio.webp" alt="Festival del Terror portada" class="h-full w-full" /></div>
+          <div class="p-5">
+            <h3 class="text-lg font-metal font-semibold">Silencio</h3>
+            <p class="mt-1 text-sm font-body text-zinc-400">Descripción breve de la atracción para dar contexto.</p>
+          </div>
+        </div>
+        <div class="group overflow-hidden rounded-2xl border border-white/10 bg-zinc-900/40">
+          <div class="aspect-[4/4] w-full bg-zinc-700/60"><img src="/assets/images/masacre.webp" alt="Festival del Terror portada" class="h-full w-full" /></div>
+          <div class="p-5">
+            <h3 class="text-lg font-metal font-semibold">Masacre</h3>
+            <p class="mt-1 text-sm font-body text-zinc-400">Descripción breve de la atracción para dar contexto.</p>
+          </div>
+        </div>
+        <div class="group overflow-hidden rounded-2xl border border-white/10 bg-zinc-900/40">
+          <div class="aspect-[4/4] w-full bg-zinc-700/60"><img src="/assets/images/reactorx.webp" alt="Festival del Terror portada" class="h-full w-full" /></div>
+          <div class="p-5">
+            <h3 class="text-lg font-metal font-semibold">Reactorx</h3>
+            <p class="mt-1 text-sm font-body text-zinc-400">Descripción breve de la atracción para dar contexto.</p>
+          </div>
+        </div>
+        <div class="group overflow-hidden rounded-2xl border border-white/10 bg-zinc-900/40">
+          <div class="aspect-[4/4] w-full bg-zinc-700/60"><img src="/assets/images/leyendas.webp" alt="Festival del Terror portada" class="h-full w-full" /></div>
+          <div class="p-5">
+            <h3 class="text-lg font-metal font-semibold">Leyendas</h3>
             <p class="mt-1 text-sm font-body text-zinc-400">Descripción breve de la atracción para dar contexto.</p>
           </div>
         </div>
