@@ -16,6 +16,11 @@ export default defineNuxtConfig({
       tailwindcss(),
     ],
   },
+  runtimeConfig: {
+    public: {
+      gaId: process.env.NUXT_PUBLIC_GA_ID || ''
+    }
+  },
   experimental: { appManifest: false },
   modules: ["nuxt-icon", "@nuxt/image"],
   compatibilityDate: "2024-12-18",
