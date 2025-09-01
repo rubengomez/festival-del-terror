@@ -17,9 +17,9 @@ const navOpen = ref(false)
           <NuxtLink to="#trabajo" class="text-zinc-800 hover:text-red-600 font-metal">Trabajo</NuxtLink>
           <NuxtLink to="#faq" class="text-zinc-800 hover:text-red-600 font-metal">FAQ</NuxtLink>
         </div>
-        <div class="hidden md:block">
+        <!-- <div class="hidden md:block">
           <NuxtLink to="#boletos" class="rounded-md border border-red-600 px-4 py-2 text-sm font-semibold uppercase tracking-wide text-red-600 hover:bg-red-50">Preventa</NuxtLink>
-        </div>
+        </div> -->
 
         <!-- Mobile hamburger -->
         <button @click="navOpen = !navOpen" class="inline-flex items-center rounded-md p-2 ring-1 ring-zinc-300 text-zinc-800 md:hidden" aria-label="Abrir menú">

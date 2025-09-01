@@ -23,7 +23,7 @@ const schedule = [
           <p class="mt-3 text-sm font-body font-medium uppercase tracking-wide text-zinc-400 sm:mt-4">Las peores pesadillas no se sueñan, se viven</p>
 
           <div id="boletos" class="mt-6 flex flex-col items-center justify-center gap-3 sm:flex-row">
-            <NuxtLink to="#" class="inline-flex w-full items-center justify-center rounded-md bg-red-600 px-6 py-3 text-base font-semibold shadow hover:bg-red-500 sm:w-auto">Comprar boletos</NuxtLink>
+            <!-- <NuxtLink to="#" class="inline-flex w-full items-center justify-center rounded-md bg-red-600 px-6 py-3 text-base font-semibold shadow hover:bg-red-500 sm:w-auto">Comprar boletos</NuxtLink> -->
             <NuxtLink to="https://www.google.com/maps/place/Granja+La+Rosita/@31.6575427,-106.3760189,17z/data=!3m1!4b1!4m6!3m5!1s0x86e75d08b38a6897:0xe3daed17f10ec163!8m2!3d31.6575382!4d-106.373444!16s%2Fg%2F11m7kvx2sr?entry=ttu&g_ep=EgoyMDI1MDgxMy4wIKXMDSoASAFQAw%3D%3D" class="inline-flex w-full items-center justify-center rounded-md border border-white/15 px-6 py-3 text-base font-semibold hover:bg-white/5 sm:w-auto" target="_blank">Cómo llegar</NuxtLink>
           </div>
         </div>
@@ -31,7 +31,7 @@ const schedule = [
     </section>
 
     <!-- ADRESS & DATES -->
-    <section id="direccion" class="scroll-mt-24 md:scroll-mt-28 border-y border-white/10 bg-zinc-900/30">
+    <!-- <section id="direccion" class="scroll-mt-24 md:scroll-mt-28 border-y border-white/10 bg-zinc-900/30">
       <div class="mx-auto grid max-w-7xl grid-cols-1 gap-8 px-4 py-10 sm:px-6 md:grid-cols-3 lg:px-8">
         <div class="rounded-2xl border border-white/10 bg-zinc-800/40 p-6">
           <h2 class="text-2xl font-bold">Dirección del festival</h2>
@@ -58,11 +58,10 @@ const schedule = [
             </div>
           </div>
 
-          <!-- small disclaimer -->
           <p class="mt-4 text-xs text-zinc-400">Horarios y actividades sujetos a cambios sin previo aviso.</p>
         </div>
       </div>
-    </section>
+    </section> -->
     <!-- ATRACCIONES PREVIEW -->
     <section id="atracciones" class="scroll-mt-24 md:scroll-mt-28 mx-auto max-w-7xl px-4 py-12 sm:px-6 lg:px-8">
       <h2 class="text-center text-3xl font-metal font-bold sm:text-4xl text-red-600">Atracciones</h2>
@@ -71,7 +70,7 @@ const schedule = [
       <!-- Mapa placeholder -->
       <div class="mt-6 rounded-2xl border border-white/10 bg-zinc-800/40 p-3">
         <div class="aspect-[16/9] w-full rounded-lg bg-zinc-700/60">
-          <div class="flex h-full items-center justify-center text-zinc-300">Mapa del festival</div>
+          <div class="flex h-full items-center justify-center text-zinc-300"><img src="/assets/images/mapa_festival.webp" alt="Festival del Terror portada" class="h-full w-full" /></div>
         </div>
       </div>
 
@@ -172,7 +171,7 @@ const schedule = [
     </section>
 
     <!-- TRABAJO CTA -->
-    <section id="trabajo" class="scroll-mt-24 md:scroll-mt-28 border-y border-white/10 bg-zinc-900/30">
+    <!-- <section id="trabajo" class="scroll-mt-24 md:scroll-mt-28 border-y border-white/10 bg-zinc-900/30">
       <div class="mx-auto grid max-w-7xl grid-cols-1 items-center gap-8 px-4 py-12 sm:px-6 md:grid-cols-2 lg:px-8">
         <div>
           <h2 class="text-3xl font-metal font-bold sm:text-4xl text-red-600">¿Quieres trabajar con nosotros?</h2>
@@ -188,7 +187,7 @@ const schedule = [
           </div>
         </div>
       </div>
-    </section>
+    </section> -->
 
     <!-- FAQ -->
     <section id="faq" class="scroll-mt-24 md:scroll-mt-28 mx-auto max-w-7xl px-4 py-12 sm:px-6 lg:px-8">
@@ -212,9 +211,9 @@ const schedule = [
         </details>
       </div>
 
-      <div class="mt-10 text-center">
+      <!-- <div class="mt-10 text-center">
         <NuxtLink to="#" class="inline-flex items-center justify-center rounded-md bg-red-600 px-6 py-3 text-base font-semibold shadow hover:bg-red-500">Comprar boletos</NuxtLink>
-      </div>
+      </div> -->
     </section>
   </div>
 </template>
