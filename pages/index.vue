@@ -7,6 +7,25 @@ const schedule = [
   { time: '8:00pm', title: 'Apertura al inframundo' },
   { time: '1:00am', title: 'Cierre del parque' }
 ]
+useHead({
+  title: 'Festival del Terror 3',
+  meta: [
+    { name: 'description', content: 'Las peores pesadillas no se sueñan, se viven. 🎃 Ven a Granja La Rosita en Ciudad Juárez.' },
+
+    // Open Graph (Facebook / WhatsApp / LinkedIn)
+    { property: 'og:title', content: 'Festival del Terror 3' },
+    { property: 'og:description', content: 'Las peores pesadillas no se sueñan, se viven. 🎃' },
+    { property: 'og:image', content: 'https://festivaldelterror.mx/assets/images/portada.webp' },
+    { property: 'og:url', content: 'https://festivaldelterror.mx' },
+    { property: 'og:type', content: 'website' },
+
+    // Twitter Cards
+    { name: 'twitter:card', content: 'summary_large_image' },
+    { name: 'twitter:title', content: 'Festival del Terror 3' },
+    { name: 'twitter:description', content: 'Las peores pesadillas no se sueñan, se viven. 🎃' },
+    { name: 'twitter:image', content: 'https://festivaldelterror.mx/assets/images/portada.webp' }
+  ]
+})
 </script>
 <template>
   <div class="min-h-screen bg-zinc-950 text-zinc-100">
