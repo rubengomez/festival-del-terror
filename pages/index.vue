@@ -15,7 +15,7 @@ useHead({
     // Open Graph (Facebook / WhatsApp / LinkedIn)
     { property: 'og:title', content: 'Festival del Terror 3' },
     { property: 'og:description', content: 'Las peores pesadillas no se sueñan, se viven. 🎃' },
-    { property: 'og:image', content: 'https://festivaldelterror.mx/assets/images/portada.webp' },
+    { property: 'og:image', content: 'https://festivaldelterror.mx/images/portada.webp' },
     { property: 'og:url', content: 'https://festivaldelterror.mx' },
     { property: 'og:type', content: 'website' },
 
@@ -23,7 +23,7 @@ useHead({
     { name: 'twitter:card', content: 'summary_large_image' },
     { name: 'twitter:title', content: 'Festival del Terror 3' },
     { name: 'twitter:description', content: 'Las peores pesadillas no se sueñan, se viven. 🎃' },
-    { name: 'twitter:image', content: 'https://festivaldelterror.mx/assets/images/portada.webp' }
+    { name: 'twitter:image', content: 'https://festivaldelterror.mx/images/portada.webp' }
   ]
 })
 </script>
