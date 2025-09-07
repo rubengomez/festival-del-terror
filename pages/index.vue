@@ -49,38 +49,37 @@ useHead({
       </div>
     </section>
 
-    <!-- ADRESS & DATES -->
-    <!-- <section id="direccion" class="scroll-mt-24 md:scroll-mt-28 border-y border-white/10 bg-zinc-900/30">
-      <div class="mx-auto grid max-w-7xl grid-cols-1 gap-8 px-4 py-10 sm:px-6 md:grid-cols-3 lg:px-8">
-        <div class="rounded-2xl border border-white/10 bg-zinc-800/40 p-6">
-          <h2 class="text-2xl font-bold">Dirección del festival</h2>
-          <p class="mt-2 text-zinc-300">Camino a La Rosita #1085 · Ciudad Juárez</p>
-          <div class="mt-4 aspect-video w-full overflow-hidden rounded-lg bg-zinc-700/60">
-            <div class="flex h-full items-center justify-center text-xs text-zinc-300">Mapa (embed próximamente)</div>
-          </div>
-        </div>
+  <!-- Patrocinadores -->
+  <section id="patrocinadores" class="scroll-mt-24 md:scroll-mt-28 mx-auto max-w-7xl px-4 py-12 sm:px-6 lg:px-8">
+    <h2 class="text-center text-2xl sm:text-3xl font-metal font-bold text-red-600">Patrocinadores</h2>
+    <p class="mx-auto mt-2 max-w-xl text-center font-body text-zinc-400 text-sm sm:text-base">Gracias a quienes hacen posible el Festival del Terror.</p>
 
-        <div class="rounded-2xl border border-white/10 bg-zinc-800/40 p-6 md:col-span-2">
-          <div class="flex flex-col gap-6 md:flex-row md:items-start md:justify-between">
-            <div>
-              <h3 class="text-xl font-semibold">Fechas</h3>
-              <p class="mt-1 text-zinc-300">26 de Septiembre – X de Octubre</p>
-            </div>
-            <div>
-              <h3 class="text-xl font-semibold">Itinerario</h3>
-              <ul class="mt-3 divide-y divide-white/10 overflow-hidden rounded-lg border border-white/10">
-                <li v-for="item in schedule" :key="item.time" class="flex items-center justify-between bg-zinc-900/30 px-4 py-3">
-                  <span class="font-mono text-zinc-300">{{ item.time }}</span>
-                  <span class="font-light px-3">{{ item.title }}</span>
-                </li>
-              </ul>
-            </div>
-          </div>
-
-          <p class="mt-4 text-xs text-zinc-400">Horarios y actividades sujetos a cambios sin previo aviso.</p>
+    <div class="mt-6 grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-4 gap-3 sm:gap-4 md:gap-6">
+      <a href="https://www.facebook.com/profile.php?id=61554863888466" target="_blank" class="group flex items-center justify-center rounded-xl border border-white/10 bg-zinc-900/40 p-3 sm:p-4 hover:border-red-600 transition">
+        <div class="h-16 sm:h-20 md:h-24 lg:h-28 w-full flex items-center justify-center">
+          <img src="/assets/images/rocket_paintball.webp" alt="Rocket Paintball" loading="lazy" class="max-h-full w-auto object-contain" />
         </div>
-      </div>
-    </section> -->
+      </a>
+
+      <a href="https://ticketfy.mx" target="_blank" class="group flex items-center justify-center rounded-xl border border-white/10 bg-zinc-900/40 p-3 sm:p-4 hover:border-red-600 transition">
+        <div class="h-16 sm:h-20 md:h-24 lg:h-28 w-full flex items-center justify-center">
+          <img src="/assets/images/ticketfy.webp" alt="Ticketfy" loading="lazy" class="max-h-full w-auto object-contain" />
+        </div>
+      </a>
+
+      <a href="https://canacojuarez.com" target="_blank" class="group flex items-center justify-center rounded-xl border border-white/10 bg-zinc-900/40 p-3 sm:p-4 hover:border-red-600 transition">
+        <div class="h-16 sm:h-20 md:h-24 lg:h-28 w-full flex items-center justify-center">
+          <img src="/assets/images/canaco.webp" alt="CANACO" loading="lazy" class="max-h-full w-auto object-contain" />
+        </div>
+      </a>
+      <a href="https://juarez.gob.mx/dependencia/13/" target="_blank" class="group flex items-center justify-center rounded-xl border border-white/10 bg-zinc-900/40 p-3 sm:p-4 hover:border-red-600 transition">
+        <div class="h-16 sm:h-20 md:h-24 lg:h-28 w-full flex items-center justify-center">
+          <img src="/assets/images/desarrollo_economico.webp" alt="Desarrollo económico" loading="lazy" class="max-h-full w-auto object-contain" />
+        </div>
+      </a>
+    </div>
+  </section>
+
     <!-- ATRACCIONES PREVIEW -->
     <section id="atracciones" class="scroll-mt-24 md:scroll-mt-28 mx-auto max-w-7xl px-4 py-12 sm:px-6 lg:px-8">
       <h2 class="text-center text-3xl font-metal font-bold sm:text-4xl text-red-600">Atracciones</h2>
@@ -188,25 +187,6 @@ useHead({
         </div>
       </div>
     </section>
-
-    <!-- TRABAJO CTA -->
-    <!-- <section id="trabajo" class="scroll-mt-24 md:scroll-mt-28 border-y border-white/10 bg-zinc-900/30">
-      <div class="mx-auto grid max-w-7xl grid-cols-1 items-center gap-8 px-4 py-12 sm:px-6 md:grid-cols-2 lg:px-8">
-        <div>
-          <h2 class="text-3xl font-metal font-bold sm:text-4xl text-red-600">¿Quieres trabajar con nosotros?</h2>
-          <p class="mt-2 font-body text-zinc-400">Buscamos actores, maquillistas, staff de operaciones y más. Entrenamiento pagado y horarios flexibles.</p>
-          <div class="mt-6 flex flex-col gap-3 sm:flex-row">
-            <NuxtLink to="#" class="inline-flex items-center justify-center rounded-md bg-zinc-100 px-5 py-3 font-semibold text-zinc-900 hover:bg-white">Aplicar ahora</NuxtLink>
-            <NuxtLink to="#faq" class="inline-flex items-center justify-center rounded-md border border-white/15 px-5 py-3 font-semibold hover:bg-white/5">Preguntas frecuentes</NuxtLink>
-          </div>
-        </div>
-        <div class="rounded-2xl border border-white/10 bg-zinc-800/40 p-3">
-          <div class="aspect-video w-full rounded-lg bg-zinc-700/60">
-            <div class="flex h-full items-center justify-center text-zinc-300">Formulario (preview)</div>
-          </div>
-        </div>
-      </div>
-    </section> -->
 
     <!-- FAQ -->
     <section id="faq" class="scroll-mt-24 md:scroll-mt-28 mx-auto max-w-7xl px-4 py-12 sm:px-6 lg:px-8">
