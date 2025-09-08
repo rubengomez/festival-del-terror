@@ -42,7 +42,7 @@ useHead({
           <p class="mt-3 text-sm font-body font-medium uppercase tracking-wide text-zinc-400 sm:mt-4">Las peores pesadillas no se sueñan, se viven</p>
 
           <div id="boletos" class="mt-6 flex flex-col items-center justify-center gap-3 sm:flex-row">
-            <NuxtLink to="https://ticketfy.mx/events/68b53525dadc9ac1f50dfaf2" class="inline-flex w-full items-center justify-center rounded-md bg-red-600 px-6 py-3 text-base font-semibold shadow hover:bg-red-500 sm:w-auto">Comprar boletos</NuxtLink>
+            <NuxtLink to="https://ticketfy.mx/events/festival-del-terror" class="inline-flex w-full items-center justify-center rounded-md bg-red-600 px-6 py-3 text-base font-semibold shadow hover:bg-red-500 sm:w-auto">Comprar boletos</NuxtLink>
             <NuxtLink to="https://www.google.com/maps/place/Granja+La+Rosita/@31.6575427,-106.3760189,17z/data=!3m1!4b1!4m6!3m5!1s0x86e75d08b38a6897:0xe3daed17f10ec163!8m2!3d31.6575382!4d-106.373444!16s%2Fg%2F11m7kvx2sr?entry=ttu&g_ep=EgoyMDI1MDgxMy4wIKXMDSoASAFQAw%3D%3D" class="inline-flex w-full items-center justify-center rounded-md border border-white/15 px-6 py-3 text-base font-semibold hover:bg-white/5 sm:w-auto" target="_blank">Cómo llegar</NuxtLink>
           </div>
         </div>
@@ -219,7 +219,7 @@ useHead({
       </div>
 
       <div class="mt-10 text-center">
-        <NuxtLink to="https://ticketfy.mx/events/68b53525dadc9ac1f50dfaf2" class="inline-flex items-center justify-center rounded-md bg-red-600 px-6 py-3 text-base font-semibold shadow hover:bg-red-500">Comprar boletos</NuxtLink>
+        <NuxtLink to="https://ticketfy.mx/events/festival-del-terror" class="inline-flex items-center justify-center rounded-md bg-red-600 px-6 py-3 text-base font-semibold shadow hover:bg-red-500">Comprar boletos</NuxtLink>
       </div>
     </section>
   </div>
