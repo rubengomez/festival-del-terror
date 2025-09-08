@@ -18,7 +18,7 @@ const navOpen = ref(false)
           <NuxtLink to="#faq" class="text-[#F9EACB] hover:text-red-600 font-metal">FAQ</NuxtLink>
         </div>
         <div class="hidden md:block">
-          <NuxtLink to="https://ticketfy.mx/events/68b53525dadc9ac1f50dfaf2" class="rounded-md border border-red-600 px-4 py-2 text-sm font-semibold uppercase tracking-wide text-red-600 hover:bg-red-50">Preventa</NuxtLink>
+          <NuxtLink to="https://ticketfy.mx/events/festival-del-terror" class="rounded-md border border-red-600 px-4 py-2 text-sm font-semibold uppercase tracking-wide text-red-600 hover:bg-red-50">Preventa</NuxtLink>
         </div>
 
         <!-- Mobile hamburger -->
