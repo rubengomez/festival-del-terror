@@ -87,7 +87,7 @@ useHead({
 
       <!-- Mapa placeholder -->
       <div class="mt-6 rounded-2xl border border-white/10 bg-zinc-800/40 p-3">
-        <div class="aspect-[16/9] w-full rounded-lg bg-zinc-700/60">
+        <div class="aspect-[1/1] w-full rounded-lg bg-zinc-700/60">
           <div class="flex h-full items-center justify-center text-zinc-300"><img src="/assets/images/mapa_festival.webp" alt="Festival del Terror portada" class="h-full w-full" /></div>
         </div>
       </div>
