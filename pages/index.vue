@@ -198,7 +198,7 @@ useHead({
         </details>
         <details>
           <summary class="cursor-pointer list-none px-5 py-4 font-medium hover:bg-white/5">¿Dónde compro mis accesos?</summary>
-          <div class="px-5 pb-5 font-body text-zinc-400">Los accesos de admisión general estarán próximamente a la venta en don boleton, sin embargo durante la preventa puedes comprar los accesos VIP en Ticketfy estos ya incluyen tu admisión general y acceso a todas las atracciones, a excepción de juegos mecánicos.</div>
+          <div class="px-5 pb-5 font-body text-zinc-400">Los accesos de admisión general estarán próximamente a la venta en don boleton, sin embargo durante la preventa puedes comprar pulseras VIP en Ticketfy estos ya incluyen tu admisión general y acceso a todas las atracciones, a excepción de juegos mecánicos.</div>
         </details>
         <details>
           <summary class="cursor-pointer list-none px-5 py-4 font-medium hover:bg-white/5">¿Cuál es la ubicación?</summary>
@@ -213,7 +213,7 @@ useHead({
           <div class="px-5 pb-5 font-body text-zinc-400">Si tambien aceptamos tarjeta de credito o debito.</div>
         </details>
         <details>
-          <summary class="cursor-pointer list-none px-5 py-4 font-medium hover:bg-white/5">¿Qué incluye el acceso VIP?</summary>
+          <summary class="cursor-pointer list-none px-5 py-4 font-medium hover:bg-white/5">¿Qué incluye la pusera VIP?</summary>
           <div class="px-5 pb-5 font-body text-zinc-400">Tu admisión general y acceso a todas las atracciones de terror de cobro a excepción de juegos mecánicos</div>
         </details>
       </div>
