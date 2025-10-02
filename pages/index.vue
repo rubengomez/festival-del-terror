@@ -61,11 +61,11 @@ useHead({
         </div>
       </a>
 
-      <a href="https://ticketfy.mx" target="_blank" class="group flex items-center justify-center rounded-xl border border-white/10 bg-zinc-900/40 p-3 sm:p-4 hover:border-red-600 transition">
+      <!-- <a href="https://ticketfy.mx" target="_blank" class="group flex items-center justify-center rounded-xl border border-white/10 bg-zinc-900/40 p-3 sm:p-4 hover:border-red-600 transition">
         <div class="h-16 sm:h-20 md:h-24 lg:h-28 w-full flex items-center justify-center">
           <img src="/assets/images/ticketfy.webp" alt="Ticketfy" loading="lazy" class="max-h-full w-auto object-contain" />
         </div>
-      </a>
+      </a> -->
 
       <a href="https://canacojuarez.com" target="_blank" class="group flex items-center justify-center rounded-xl border border-white/10 bg-zinc-900/40 p-3 sm:p-4 hover:border-red-600 transition">
         <div class="h-16 sm:h-20 md:h-24 lg:h-28 w-full flex items-center justify-center">
@@ -196,10 +196,10 @@ useHead({
           <summary class="cursor-pointer list-none px-5 py-4 font-medium hover:bg-white/5">¿Se puede ir disfrazado?</summary>
           <div class="px-5 pb-5 font-body text-zinc-400">No se puede ir disfrazado por seguridad de las personas, solo el personal autorizado puede ir disfrazado.</div>
         </details>
-        <details>
+        <!-- <details>
           <summary class="cursor-pointer list-none px-5 py-4 font-medium hover:bg-white/5">¿Dónde compro mis accesos?</summary>
           <div class="px-5 pb-5 font-body text-zinc-400">Los accesos de admisión general estarán próximamente a la venta en don boleton, sin embargo durante la preventa puedes comprar pulseras VIP en Ticketfy estos ya incluyen tu admisión general y acceso a todas las atracciones, a excepción de juegos mecánicos.</div>
-        </details>
+        </details> -->
         <details>
           <summary class="cursor-pointer list-none px-5 py-4 font-medium hover:bg-white/5">¿Cuál es la ubicación?</summary>
           <div class="px-5 pb-5 font-body text-zinc-400">Puedes buscar en Google “Rocket Paintball Juarez” o tambien puedes llegar con la direccion, Camino a la rosita #1085, las Arcadas</div>
